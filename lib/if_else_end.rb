@@ -1,4 +1,5 @@
-result = 2 + 2 
-if result == 4
-  puts "We've done it!"
+if Time.now.to_i % 2 == 0
+  puts "Even!"
+else
+  puts "Odd!"
 end
